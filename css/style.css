@@ -1,0 +1,160 @@
+font-family: 'PT Sans', sans-serif;
+/*font end*/
+*{
+	margin: 0;
+	padding:0;
+}
+/*header start*/
+header{
+	font-family: PT Sans;
+	background-color: #fcdb00;
+	padding: 15px 0;
+}
+/*header end*/
+/*men start*/
+.menu ul li a{
+	font-weight: 700;
+    font-size: 22px;
+    color: black !important;
+    padding: 0 40px !important;
+    transition: 0.3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color:white !important;
+}
+/*men end*/
+/*carousel start*/
+.banner{
+	background-color:#fcdb00;
+	padding-bottom: 70px; 
+}
+.mine{
+	bottom: -68px;
+}
+.mine li{
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.head_line{
+	margin-top: 70px;
+}
+.head_line h1{
+	font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.head_line h2{
+	font-size: 20px;
+	word-spacing: 4px;
+    margin-bottom: 20px;
+}
+.head_line p{
+    margin-bottom: 40px;
+}
+.list-inline i{
+	font-size: 40px;
+	color: black;
+	margin-right: 30px !important;
+}
+/*carousel end*/
+/*tine featre start*/
+.feature{
+	margin-top: 110px;
+    margin-bottom: 80px;
+}
+.common{}
+.common h1{
+	font-weight: 700;
+	font-size: 32px;
+
+}
+.common h3{
+	font-weight: 400;
+	font-size: 23px;
+    word-spacing: 3px
+}
+/*section pragraph start*/
+.s_p_single{
+	margin-top: 60px;
+}
+.icon{
+	font-size: 55px;
+}
+.text-here{
+	word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.text-here h3{
+	font-size: 23px;
+    color: #010101;
+}
+.text-here p{
+	font-size: 16px;
+    color: #898989;
+}
+/*section pragraph end*/
+/*tine featre end*/
+/*get in touch start*/
+.get-touch{
+	background-color: #010101;
+	padding-top: 110px;
+    padding-bottom: 80px;
+}
+.yellow{
+	color:#fcdb00;
+}
+.white{
+	color: #898989;
+}
+.email-area{
+	padding-top: 50px;
+}
+.email-form{
+	padding-top: 24px;
+	padding-bottom: 24px; 
+}
+.email-btn{
+	text-transform: uppercase;
+	font-weight: 700;
+    font-size: 16px;
+    background-color: #fcdb00;
+    border-color: #fcdb00;
+    color: black;
+   	padding: 12px 35px;
+}
+.social_icon{
+	margin-top: 50px;
+}
+.social_icon ul li a i{
+    font-size: 40px;
+    color: #010101;
+    width: 45px;
+	background-color: #fcdb00;
+    border-radius: 5px;
+    padding-top: 5px;
+    transition: .3s;
+}
+.social_icon ul li a i:hover{
+	color: #fcdb00;
+	background-color: white;
+}
+/*get in touch end*/
+/*footer start*/
+.mine-footer{
+	background-color: #010101;
+}
+.mine-address{
+	color: white;
+}
+.mine-text ul li a{
+	color: white;
+	transition: 0.3s;
+}
+.mine-text ul li a:hover{
+	color: #fcdb00;
+}
+/*footer end*/

@@ -1,0 +1,212 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header menu*/
+	.menu ul li a{
+		text-align:right;
+	    padding: 5px 0 !important;
+	}
+	/*header end*/
+	/*header text start*/
+	.head_line {
+		text-align: center;
+   	 	margin-top: 10px;
+	}
+	.head_line h1 {
+    	font-size: 23px;
+    	margin-bottom: 10px;
+	}
+	.head_line h2 {
+    	font-size: 18px;
+    	word-spacing: 2px;
+    	margin-bottom: 10px;
+	}
+	.list-inline i {
+	    font-size: 30px;
+	    margin-right: 20px !important;
+	}
+	.mine li {
+	    width: 10px;
+	    height: 10px;
+	    border-radius: 50%;
+	}
+	/*header text end*/
+	/*feature start*/
+	.feature {
+	    margin-top: 60px;
+	    margin-bottom: 40px;
+	}
+	.common h1 {
+	    font-size: 24px;
+	}
+	.common h3 {
+	    font-size: 17px;
+	    word-spacing: 1px;
+	}
+	.s_p_single {
+	    margin-top: 45px;
+	}
+	.text-here{
+		text-align: center;
+		margin-top: 5px;
+	}
+	.text-here h3{
+		font-size: 18px;
+	}
+	/*feature end*/
+	/*get in touch start*/
+	.get-touch{
+		margin-bottom: 0;
+	}
+	.email-form {
+	    padding-top: 15px;
+	    padding-bottom: 15px;
+	}
+	.email-btn {
+	    padding: 6px 15px;
+	}
+	.social_icon ul li a i {
+	    font-size: 20px;
+	    width: 25px;
+	}
+	/*get in touch end*/
+	/*footer start*/
+	.mine-address{
+		text-align: center;
+	}
+	.mine-text{
+		text-align: center;
+	}
+	/*footer end*/
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*header menu*/
+	.menu ul li a{
+		text-align:right;
+    	padding: 5px 0 !important;
+	}
+	/*header end*/
+	/*header text start*/
+	.head_line {
+		text-align: center;
+   	 	margin-top: 30px;
+	}
+	.head_line h1 {
+    	font-size: 25px;
+    	margin-bottom: 15px;
+	}
+	.head_line h2 {
+    	font-size: 18px;
+    	word-spacing: 2px;
+    	margin-bottom: 15px;
+	}
+	.list-inline i {
+    	font-size: 35px;
+    	margin-right: 25px !important;
+	}
+	.mine li {
+    	width: 10px;
+    	height: 10px;
+    	border-radius: 50%;
+	}
+	/*header text end*/
+	/*feature start*/
+	.feature {
+   	 	margin-top: 80px;
+    	margin-bottom: 50px;
+	}
+	.common h1 {
+    	font-size: 28px;
+	}
+	.common h3 {
+    	font-size: 20px;
+    	word-spacing: 2px;
+	}
+	.s_p_single {
+    	margin-top: 55px;
+	}
+	.text-here{
+		text-align: center;
+		margin-top: 10px;
+	}
+	.text-here h3{
+		font-size: 20px;
+	}
+	/*feature end*/
+	/*get in touch start*/
+	.get-touch{
+		margin-bottom: 0;
+	}
+	.email-area {
+    	padding-top: 40px;
+	}
+	.email-form {
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+	.email-btn {
+	    padding: 8px 25px;
+	}
+	/*get in touch end*/
+	/*footer start*/
+	.mine-address{
+		text-align: center;
+	}
+	.mine-text{
+		text-align: center;
+	}
+	/*footer end*/
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*header menu*/
+	.menu ul li a{
+		text-align:right;
+	    padding: 5px 0 !important;
+	}
+	/*header end*/
+	/*feature start*/
+	.common h1 {
+    	font-size: 30px;
+	}
+	.common h3 {
+    	font-size: 22px;
+    	word-spacing: 1px;
+	}
+	.feature {
+    	margin-top: 100px;
+    	margin-bottom: 70px;
+	}
+	.text-here h3 {
+    	font-size: 22px;
+
+	}
+	/*feature end*/
+	/*get in touch start*/
+	.get-touch{
+		margin-bottom: 0;
+	}
+	/*get in touch end*/
+
+}
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*get in touch start*/
+	.get-touch{
+		margin-bottom: 0;
+	}
+	/*get in touch end*/
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	/*get in touch start*/
+	.get-touch{
+		margin-bottom: 0;
+	}
+	/*get in touch end*/
+}
